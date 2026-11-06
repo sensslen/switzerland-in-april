@@ -93,7 +93,7 @@ function App() {
 
   return <>
     <a className="skip-link" href="#suggestions">Skip to places</a>
-    <header className="intro"><div className="eyebrow"><span className="swiss-cross" aria-hidden="true">✚</span> 1 to 9 April 2027 · {places.length} places</div><h1>Switzerland, in view.</h1><p>The Rhine, orchard country, lakes and mountain villages. Explore the map to see the places nearby.</p></header>
+    <header className="intro"><div className="eyebrow"><svg className="swiss-flag" viewBox="0 0 32 32" role="img" aria-label="Swiss flag"><path fill="#da291c" d="M0 0h32v32H0z"/><path fill="#fff" d="M13 6h6v7h7v6h-7v7h-6v-7H6v-6h7z"/></svg> 1 to 9 April 2027 · {places.length} places</div><h1>Switzerland, in view.</h1><p>The Rhine, orchard country, lakes and mountain villages. Explore the map to see the places nearby.</p></header>
     <section className="map-panel" id="map-panel" aria-label="Explore places on the map">
       <div className="region-bar" aria-label="Jump to an area">{regions.map(region => <button key={region.title} type="button" onClick={() => { setSelected(null); setView({ ids: region.ids }); }}>{region.title}</button>)}</div>
       <MapContainer bounds={initialBounds} boundsOptions={{ padding: [16, 16] }} minZoom={6} maxZoom={18} className="map" aria-label="Map of suggested places in Switzerland" zoomControl={true}>
