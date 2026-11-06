@@ -1,0 +1,549 @@
+[
+  {
+    "number": 1,
+    "title": "Kartause Ittingen, Warth",
+    "meta": "Quieter discovery | monastery, gardens and museums",
+    "body": "A former Carthusian monastery with historic courtyards, gardens, a farm shop, the Ittinger Museum and Kunstmuseum Thurgau. Self-guided discovery routes explore its water, woodland and monastic history. The gardens are accessible in spring; the rose display belongs to a later season.",
+    "links": [
+      [
+        "Discovery walks and scavenger hunt",
+        "https://www.kartause.ch/kultur-und-erlebnisse/erlebnisse"
+      ]
+    ],
+    "lat": 47.5838,
+    "lng": 8.8672,
+    "photo": "photos/ittingen.webp",
+    "caption": "Kartause Ittingen",
+    "width": 590,
+    "height": 400,
+    "credit": {
+      "author": "Roland Zumbühl / Picswiss",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:KartauseIttingen.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  },
+  {
+    "number": 2,
+    "title": "Seebachtal lakes near Hüttwilen and Nussbaumen",
+    "meta": "Quieter discovery | lakes, walking and nature",
+    "body": "The Hüttwilersee, Nussbaumersee and Hasensee lie in a protected landscape of reeds, woodland and farmland. Lakeside walking and birdwatching are the main activities. This is one of the quieter natural settings close to Frauenfeld, with low-altitude paths suitable for spring conditions.",
+    "links": [
+      [
+        "Thurgau Tourism's Seebachtal guide",
+        "https://thurgau-bodensee.ch/blog/story/wein-und-natur-im-seebachtal-05e64b88-adc8-486f-95d2-7449d5d07d31.html"
+      ]
+    ],
+    "lat": 47.61056,
+    "lng": 8.8425,
+    "photo": "photos/seebachtal.webp",
+    "caption": "Hüttwilersee in the Seebachtal",
+    "width": 867,
+    "height": 650,
+    "credit": {
+      "author": "Peter Berger",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:H%C3%BCttwilersee.JPG"
+    }
+  },
+  {
+    "number": 3,
+    "title": "Altnau apple trail and orchard country",
+    "meta": "Quieter discovery | orchards and a themed trail",
+    "body": "The Altnau apple trail runs through orchards near Lake Constance, with themed information stations about fruit growing. Blossom season varies between April and May, so flowering during 1 to 9 April is uncertain. The orchard countryside and trail are accessible independently of the blossom.",
+    "links": [
+      [
+        "Altnau apple trail",
+        "https://www.myswitzerland.com/en-ch/experiences/altnau-apple-trail/"
+      ],
+      [
+        "Current blossom information",
+        "https://thurgau-bodensee.ch/aktuelles/obstbaumbluete.html"
+      ]
+    ],
+    "lat": 47.61667,
+    "lng": 9.25,
+    "photo": "photos/altnau.webp",
+    "caption": "Apple blossom in Altnau",
+    "width": 800,
+    "height": 443,
+    "credit": {
+      "author": "GabrielleMerk",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Altnau-Thurgau-Spring.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 4,
+    "title": "Insel Werd, Eschenz",
+    "meta": "Quieter discovery | island, chapel and footbridge",
+    "body": "A small monastery island near Eschenz, connected to the shore by a wooden footbridge. The chapel and views across the water make it a short, quiet sight close to Stein am Rhein. The island also has prehistoric archaeological significance.",
+    "links": [
+      [
+        "Thurgau Tourism on Werd and the region",
+        "https://thurgau-bodensee.ch/blog/story/pfahlbauer-unesco-weltkultur-ae0e466a-3804-45e5-b326-49d8f6aafc6e.html"
+      ]
+    ],
+    "lat": 47.65556,
+    "lng": 8.86667,
+    "photo": "photos/werd.webp",
+    "caption": "Footbridge to Insel Werd",
+    "width": 800,
+    "height": 233,
+    "credit": {
+      "author": "UNTERMVIERENBERGE-2",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:CH-TG-Eschenz-Insel_Werd_001.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 5,
+    "title": "Rhine Falls / Rheinfall",
+    "meta": "Waterfall, viewing platforms and boat trips",
+    "body": "A wide waterfall below Schloss Laufen, with riverside viewpoints, platforms close to the water and seasonal boat trips. The boat operator normally runs from April to October. Its Rock Experience includes more than 100 steps and is not recommended for children under 1.2 metres; other round trips have no rock landing.",
+    "links": [
+      [
+        "Official Rhine Falls information",
+        "https://rheinfall.ch/en/"
+      ],
+      [
+        "Boat options and height advice",
+        "https://rhyfall-maendli.ch/en/boat-tours-experiences/rock-tour/"
+      ]
+    ],
+    "lat": 47.67722,
+    "lng": 8.61583,
+    "photo": "photos/rhine.webp",
+    "caption": "Rhine Falls and Schloss Laufen",
+    "width": 900,
+    "height": 600,
+    "credit": {
+      "author": "Kabelleger / David Gubler",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:SBB_RABe_514_DTZ_Rheinfall.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  {
+    "number": 6,
+    "title": "Schaffhausen old town and Munot fortress",
+    "meta": "Old town and historic fortress",
+    "body": "Schaffhausen has a historic old town with painted facades and projecting windows. The circular Munot fortress rises above the town and Rhine, surrounded by vineyards. The fortress adds ramparts, interior spaces and elevated views to the old-town sights.",
+    "links": [
+      [
+        "Munot visitor information",
+        "https://en.schaffhauserland.ch/map/poi/munot-33334310-d1a3-4b30-bb1c-9eb9acbe3c1b.html"
+      ]
+    ],
+    "lat": 47.69694,
+    "lng": 8.63972,
+    "photo": "photos/munot.webp",
+    "caption": "Munot fortress",
+    "width": 800,
+    "height": 585,
+    "credit": {
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Schaffhausen_-_Munot_01.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  },
+  {
+    "number": 7,
+    "title": "Stein am Rhein",
+    "meta": "Medieval old town and riverfront",
+    "body": "A compact medieval town where Lake Constance becomes the Rhine. Painted facades and decorated houses surround Rathausplatz, with riverfront scenery nearby. Its preserved centre is the main attraction; Insel Werd is a separate, quieter sight in neighbouring Eschenz.",
+    "links": [
+      [
+        "Stein am Rhein visitor guide",
+        "https://schaffhauserland.ch/region/stein-am-rhein.html"
+      ]
+    ],
+    "lat": 47.66667,
+    "lng": 8.85,
+    "photo": "photos/stein.webp",
+    "caption": "Painted houses in Stein am Rhein",
+    "width": 900,
+    "height": 582,
+    "credit": {
+      "author": "JoachimKohler-HB",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rathausplatz_5,_7,_9,_11_und_13_in_Stein_am_Rhein.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 8,
+    "title": "Zurich old town, Lindenhof and the lake",
+    "meta": "Old town, viewpoint and lakefront",
+    "body": "Zurich's old town spreads along the Limmat, with lanes, churches and riverfront buildings. The elevated Lindenhof has views over the old town; the lakefront opens out toward Lake Zurich. Scheduled boat services add a separate activity on the water.",
+    "links": [
+      [
+        "Zurich's Lindenhof",
+        "https://www.zuerich.com/en/visit/nature/lindenhof"
+      ]
+    ],
+    "lat": 47.37306,
+    "lng": 8.54083,
+    "photo": "photos/zurich.webp",
+    "caption": "Grossmünster and the Limmat",
+    "width": 900,
+    "height": 601,
+    "credit": {
+      "author": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grossm%C3%BCnster_and_Limmat_River,_Zurich,_20250330_1239_7929.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  },
+  {
+    "number": 9,
+    "title": "Technorama, Winterthur",
+    "meta": "Interactive science centre | indoors and outdoors",
+    "body": "A hands-on science centre in Winterthur with hundreds of experiments involving natural phenomena and technology. Visitors operate the exhibits themselves. Its indoor galleries make it an all-weather attraction, with outdoor experiments in the park as well. Current admission is free for children aged zero to five.",
+    "links": [
+      [
+        "Visitor information and tickets",
+        "https://www.technorama.ch/en/visit/opening-hours-and-prices"
+      ]
+    ],
+    "lat": 47.511,
+    "lng": 8.7645,
+    "photo": "photos/technorama.webp",
+    "caption": "An exhibit at Technorama",
+    "width": 800,
+    "height": 533,
+    "credit": {
+      "author": "Ank kumar",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Technorama_Winterthur_(Ank_kumar,_INFOSYS_Limited)_10.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 10,
+    "title": "Lucerne old town and lakefront",
+    "meta": "Historic city, wooden bridge and lake",
+    "body": "Lucerne's covered wooden Chapel Bridge crosses the Reuss beside the Water Tower. The old town has historic squares and painted buildings, while the lakefront looks across Lake Lucerne toward the mountains. Scheduled lake cruises are another activity from the city.",
+    "links": [
+      [
+        "Chapel Bridge and its Water Tower",
+        "https://www.luzern.com/en/the-city/sights/top-sights/lucernes-landmarks-the-chapel-bridge-and-its-water-tower"
+      ]
+    ],
+    "lat": 47.05167,
+    "lng": 8.3075,
+    "photo": "photos/lucerne.webp",
+    "caption": "Chapel Bridge, Lucerne",
+    "width": 900,
+    "height": 263,
+    "credit": {
+      "author": "Reinhold Möller / Ermell",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Luzern_Kapellbr%C3%BCcke_1180623.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  {
+    "number": 11,
+    "title": "Swiss Museum of Transport / Verkehrshaus",
+    "meta": "Interactive transport museum | indoors and outdoors",
+    "body": "An interactive museum about transport and mobility, with trains, aircraft, road vehicles and shipping exhibits. It is open 365 days a year. The planetarium, cinema and Swiss Chocolate Adventure are additional attractions with separate ticket or package arrangements.",
+    "links": [
+      [
+        "Plan a visit and compare tickets",
+        "https://www.verkehrshaus.ch/en/your-visit/plan-a-visit"
+      ]
+    ],
+    "lat": 47.05278,
+    "lng": 8.33583,
+    "photo": "photos/transport.webp",
+    "caption": "Swiss Museum of Transport",
+    "width": 800,
+    "height": 533,
+    "credit": {
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:00_9020_Luzern_(CH)_-_Verkehrshaus.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 12,
+    "title": "Rigi by cogwheel train",
+    "meta": "Mountain railway and viewpoints | April works closure",
+    "body": "Cogwheel railways reach Rigi's viewpoints above Lake Lucerne. The Goldau-Rigi Staffel section closes on 5 April 2027, affecting the last five days of this visit. The Vitznau line is a separate approach, subject to its timetable. Snow can remain on mountain paths in early April.",
+    "links": [
+      [
+        "Official April 2027 works notice",
+        "https://www.rigi.ch/ueber-uns/rigi-projekte/arb-entwicklung-2030"
+      ],
+      [
+        "Operating information",
+        "https://www.rigi.ch/en/inform/operating-informations"
+      ]
+    ],
+    "lat": 47.05667,
+    "lng": 8.48556,
+    "photo": "photos/rigi.webp",
+    "caption": "Rigi railway in snowy conditions",
+    "width": 800,
+    "height": 494,
+    "credit": {
+      "author": "Kabelleger / David Gubler",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:RB_BDhe_2-4_II_Rigi_Staffel_-_Rigi_Kulm.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 13,
+    "title": "Unterseen and the Aare riverside",
+    "meta": "Quieter discovery | old town and riverside",
+    "body": "A historic town beside the Aare, near Interlaken West. Stadthausplatz, old buildings and the riverside are the main sights. Unterseen offers a quieter town setting close to central Interlaken.",
+    "links": [
+      [
+        "Unterseen old town",
+        "https://www.brienzersee.ch/en/experiences/poi/unterseen-old-town"
+      ]
+    ],
+    "lat": 46.68333,
+    "lng": 7.85,
+    "photo": "photos/unterseen-river.webp",
+    "caption": "Unterseen and the Aare",
+    "width": 900,
+    "height": 506,
+    "credit": {
+      "author": "Kroli69",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Unterseen,_Aare.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  },
+  {
+    "number": 14,
+    "title": "Spiez bay on Lake Thun",
+    "meta": "Lakefront, harbour and castle",
+    "body": "Spiez's bay on Lake Thun has a harbour, a castle and church above the waterfront, and vineyards behind. The waterfront is an outdoor attraction in its own right; castle interiors have seasonal opening dates. Scheduled boats connect Spiez with other Lake Thun destinations.",
+    "links": [
+      [
+        "Regional lakeside walks",
+        "https://www.interlaken.swiss/en/experiences/sport-adventure/hiking/lakeside-paths-walking-trails"
+      ],
+      [
+        "BLS boat timetables",
+        "https://www.bls-schiff.ch/en/lake-cruise/timetable"
+      ]
+    ],
+    "lat": 46.686,
+    "lng": 7.683,
+    "photo": "photos/spiez.webp",
+    "caption": "Spiez Castle and Lake Thun",
+    "width": 900,
+    "height": 600,
+    "credit": {
+      "author": "JoachimKohler-HB",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Blick_auf_Schloss_Spiez_und_Thunersee.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 15,
+    "title": "Brienz village and Lake Brienz",
+    "meta": "Village, chalets and lake cruises",
+    "body": "A lakeside village known for wooden chalets, woodcarving and its waterfront promenade. Brunngasse is one of its historic streets. Lake Brienz cruises provide views from the water; the operator has published a separate 2027 spring timetable.",
+    "links": [
+      [
+        "Lake Brienz cruises",
+        "https://www.interlaken.swiss/en/experiences/lakes-waterfalls/lake-brienz/cruises-on-lake-brienz"
+      ],
+      [
+        "BLS's published 2027 timetable",
+        "https://www.bls-schiff.ch/sites/default/files/2026-09/timetable_bls_schifffahrt_2027.pdf"
+      ]
+    ],
+    "lat": 46.75,
+    "lng": 8.03333,
+    "photo": "photos/brienz.webp",
+    "caption": "Lake Brienz, viewed from Oberried",
+    "width": 900,
+    "height": 320,
+    "credit": {
+      "author": "Nicojonesgodel",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Brienzersee.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 16,
+    "title": "Ringgenberg and a short lakeside walk",
+    "meta": "Quieter discovery | lakeside village and castle-church",
+    "body": "Ringgenberg stands on Lake Brienz's north shore, with a castle-church above the lake and paths through woodland and along the shore. Nearby Goldswil and Burgseeli add a smaller lake setting. The Burgseeli lido is a summer attraction rather than an April bathing option.",
+    "links": [
+      [
+        "Ringgenberg, Goldswil and Niederried",
+        "https://www.brienzersee.ch/en/destinations/lake-brienz/ringgenberg-goldswil-niederried"
+      ]
+    ],
+    "lat": 46.7,
+    "lng": 7.9,
+    "photo": "photos/ringgenberg.webp",
+    "caption": "Ringgenberg castle-church",
+    "width": 800,
+    "height": 533,
+    "credit": {
+      "author": "JoachimKohler-HB",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ringgenberg_BE_mit_Kirche_und_Burgruine-20140501.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 17,
+    "title": "Giessbach Falls",
+    "meta": "Waterfalls, woodland and historic hotel",
+    "body": "The Giessbach descends through woodland in 14 cascades toward Lake Brienz, beside the historic Grandhotel Giessbach. Paths connect viewpoints around the falls, and a funicular links the lakeside landing with the hotel. Boat and funicular services are seasonal; path access depends on conditions.",
+    "links": [
+      [
+        "Giessbach Falls visitor information",
+        "https://www.interlaken.swiss/en/experiences/poi/giessbach-falls"
+      ]
+    ],
+    "lat": 46.733,
+    "lng": 8.024,
+    "photo": "photos/giessbach.webp",
+    "caption": "Giessbach Falls",
+    "width": 433,
+    "height": 650,
+    "credit": {
+      "author": "Markus Giger",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:20080512Y078r_Giessbachfaelle.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 18,
+    "title": "Lauterbrunnen valley and Staubbach views",
+    "meta": "Cliff scenery, waterfalls and valley walks",
+    "body": "A valley of high cliffs, meadows and waterfalls, including Staubbach Falls beside Lauterbrunnen village. Valley-floor paths provide views of the cliffs and falling water. The path behind Staubbach is seasonal and is not assumed open in April.",
+    "links": [
+      [
+        "Jungfrau Region visitor information",
+        "https://jungfrauregion.swiss/en/"
+      ]
+    ],
+    "lat": 46.595,
+    "lng": 7.90745,
+    "photo": "photos/lauterbrunnen.webp",
+    "caption": "Lauterbrunnen valley from Wengen",
+    "width": 900,
+    "height": 605,
+    "credit": {
+      "author": "Chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1_lauterbrunnen_valley_wengen_2022.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  {
+    "number": 19,
+    "title": "Wengen by train from Lauterbrunnen",
+    "meta": "Mountain village and railway ride",
+    "body": "A largely car-free mountain village above Lauterbrunnen, reached by a railway that operates throughout the year. The village has traditional chalet architecture and views across the valley. Higher walking routes remain dependent on snow conditions in April.",
+    "links": [
+      [
+        "Railway operating information",
+        "https://www.jungfrau.ch/en-gb/live/operating-info/"
+      ]
+    ],
+    "lat": 46.6056,
+    "lng": 7.9214,
+    "photo": "photos/wengen.webp",
+    "caption": "Wengen village",
+    "width": 900,
+    "height": 601,
+    "credit": {
+      "author": "chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1_wengen_2012.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 20,
+    "title": "Harder Kulm above Interlaken",
+    "meta": "Mountain viewpoint and funicular | opening to be confirmed",
+    "body": "A funicular from Interlaken reaches this viewpoint above the town, with views over Lakes Thun and Brienz. The operator's current page still lists the 2026 Harder season, so the April 2027 opening date is not yet confirmed here.",
+    "links": [
+      [
+        "Current and seasonal operating dates",
+        "https://www.jungfrau.ch/en-gb/live/operating-info/"
+      ]
+    ],
+    "lat": 46.6989,
+    "lng": 7.8516,
+    "photo": "photos/harder.webp",
+    "caption": "Harder Kulm and Lake Thun",
+    "width": 800,
+    "height": 450,
+    "credit": {
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 21,
+    "title": "Trümmelbach Falls",
+    "meta": "Waterfalls inside a mountain | child-access restriction",
+    "body": "Ten glacial waterfalls inside the mountain, accessible through a system of tunnels, a lift and stairs. The usual season starts in early April, subject to weather. The operator excludes babies and small children up to age four. The interior is loud, wet and stepped.",
+    "links": [
+      [
+        "Official opening and child-access rules",
+        "https://www.truemmelbachfaelle.ch/e/"
+      ]
+    ],
+    "lat": 46.56907,
+    "lng": 7.91498,
+    "photo": "photos/trummel.webp",
+    "caption": "Trümmelbach Falls",
+    "width": 488,
+    "height": 650,
+    "credit": {
+      "author": "JoachimKohler-HB",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tr%C3%BCmmelbachf%C3%A4lle_im_Lauterbrunnental.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "number": 22,
+    "title": "Aare Gorge / Aareschlucht, Meiringen",
+    "meta": "Gorge walk and tunnels | west entrance open in April",
+    "body": "Walkways and tunnels follow the Aare through a narrow limestone gorge. The Tatzi trail adds a creature-search activity. The west entrance opens on 26 March 2027, before this visit; the east entrance stays closed until 6 May. Access during 1 to 9 April is from the west with a return along the same side.",
+    "links": [
+      [
+        "2027 dates, Tatzi trail and pushchair information",
+        "https://aareschlucht.ch/en/info/information"
+      ]
+    ],
+    "lat": 46.71778,
+    "lng": 8.21361,
+    "photo": "photos/gorge.webp",
+    "caption": "Aare Gorge",
+    "width": 434,
+    "height": 650,
+    "credit": {
+      "author": "JoachimKohler-HB",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:In_der_Aareschlucht_bei_Innertkirchen_(2013).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  }
+]
