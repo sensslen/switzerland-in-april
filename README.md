@@ -1,5 +1,7 @@
 # Switzerland in April
 
+[Open the live map on GitHub Pages](https://sensslen.github.io/switzerland-in-april/).
+
 An interactive map and illustrated list of 22 places in Switzerland for 1 to 9 April 2027. Panning or zooming filters the list to places inside the map bounds. Place numbers match the original document and remain fixed. Close labels are spaced apart, with lines pointing to their locations. The original place 23, Ballenberg, is excluded because it opens after the visit.
 
 Built with React, React Leaflet, Leaflet and Vite. The app is entirely static. It uses OpenStreetMap tiles without an API key.
