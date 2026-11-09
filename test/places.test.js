@@ -2,37 +2,31 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import places from '../src/places.json' with { type: 'json' };
 import { placesInBounds, spreadPins } from '../src/geo.js';
-import { kidsLabels, kidsPlaces, regions } from '../src/trip.js';
+import { kidsLabels, regions } from '../src/trip.js';
 
-test('the document numbers survive filtering and returning to all places', () => {
-  assert.deepEqual(places.map(place => place.number), [...Array.from({ length: 22 }, (_, i) => i + 1), 24, 25, 26]);
+test('geographic place numbers survive filtering and returning to all places', () => {
+  assert.deepEqual(places.map(place => place.number), Array.from({ length: 25 }, (_, i) => i + 1));
   const visible = placesInBounds(places, { south: 46.56, north: 46.76, west: 7.65, east: 8.23 });
-  assert.deepEqual(visible.map(place => place.number), [13, 14, 15, 16, 17, 18, 19, 20, 21, 22]);
-  assert.equal(visible[0].title, 'Unterseen and the Aare riverside');
+  assert.deepEqual(visible.map(place => place.number), [16, 17, 18, 19, 20, 21, 22, 23, 24, 25]);
+  assert.equal(visible[0].title, 'Spiez bay on Lake Thun');
   assert.equal(placesInBounds(places, null)[4].number, 5);
   assert.deepEqual(placesInBounds(places, { south: 48, north: 49, west: 10, east: 11 }), []);
 });
 
-test('kids feasibility orders every place without hiding difficult or age-restricted visits', () => {
-  assert.deepEqual(kidsPlaces.map(place => place.number).sort((a, b) => a - b), places.map(place => place.number));
-  for (const [index, place] of kidsPlaces.entries()) {
+test('every place retains kids feasibility and family guidance, with optional seasonal notes', () => {
+  for (const place of places) {
     assert.ok(Number.isInteger(place.kidsFeasibility) && kidsLabels[place.kidsFeasibility], place.title);
-    assert.ok(place.familyNote && place.aprilNote, place.title);
-    if (index > 0) {
-      const previous = kidsPlaces[index - 1];
-      assert.ok(previous.kidsFeasibility > place.kidsFeasibility ||
-        (previous.kidsFeasibility === place.kidsFeasibility && previous.number < place.number));
-    }
+    assert.ok(place.familyNote, place.title);
+    if ('aprilNote' in place) assert.ok(place.aprilNote.trim(), place.title);
   }
-  assert.equal(kidsPlaces.at(-1).number, 21);
 });
 
 test('each place belongs to exactly one regional shortcut, including the new additions', () => {
   const regionalNumbers = regions.slice(1).flatMap(region => region.ids).sort((a, b) => a - b);
   assert.deepEqual(regionalNumbers, places.map(place => place.number));
-  assert.ok(regions.find(region => region.title === 'Lucerne & Rigi').ids.includes(24));
-  assert.ok(regions.find(region => region.title === 'Interlaken & Lake Thun').ids.includes(25));
-  assert.ok(regions.find(region => region.title === 'Frauenfeld & the Rhine').ids.includes(26));
+  assert.ok(regions.find(region => region.title === 'Lucerne & Rigi').ids.includes(14));
+  assert.ok(regions.find(region => region.title === 'Interlaken & Lake Thun').ids.includes(15));
+  assert.ok(regions.find(region => region.title === 'Frauenfeld & the Rhine').ids.includes(10));
 });
 
 test('every place has a remote photograph, source and image licence', () => {

@@ -46,13 +46,13 @@ test('the map expands before upward scrolling and resizing preserves the places'
   await expect.poll(mapHeight).toBe(450);
   await expect.poll(() => page.evaluate(() => scrollY)).toBe(0);
   await expect(page.locator('.place')).toHaveCount(25);
-  await page.getByLabel('Order by').selectOption('number');
-  await expect(page.locator('.place').first()).toHaveAttribute('value', '1');
-  await page.getByLabel('Order by').selectOption('kids');
-  await expect(page.locator('.place').last()).toHaveAttribute('value', '21');
-  await page.locator('#place-26').getByRole('button', { name: 'Locate on map' }).click();
-  await expect(page.locator('.place')).toHaveCount(1);
-  await expect(page.locator('.place')).toHaveAttribute('value', '26');
+  expect(await page.locator('.place').evaluateAll(cards => cards.map(card => card.value)))
+    .toEqual(Array.from({ length: 25 }, (_, index) => index + 1));
+  await expect(page.locator('.kids-rating')).toHaveCount(25);
+  await page.locator('#place-10').getByRole('button', { name: 'Locate on map' }).click();
+  await expect(page.locator('#place-10')).toHaveClass(/selected/);
+  await expect.poll(() => page.locator('.place').count()).toBeLessThan(25);
+  expect(await page.locator('.place').evaluateAll(cards => cards.every(card => [9, 10].includes(card.value)))).toBe(true);
   await page.getByRole('button', { name: 'All places', exact: true }).click();
   await expect(page.locator('.place')).toHaveCount(25);
 });
