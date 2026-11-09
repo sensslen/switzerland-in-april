@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import { flushSync } from 'react-dom';
 import { CircleMarker, MapContainer, Marker, Polyline, TileLayer, useMapEvents } from 'react-leaflet';
 import { divIcon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -94,7 +95,7 @@ function App() {
   const [view, setView] = useState(null);
   const [selected, setSelected] = useState(null);
   const [order, setOrder] = useState('kids');
-  const { expanded, toggleMap } = useCollapsingMap();
+  const { expanded, expandMap, toggleMap } = useCollapsingMap();
   const visible = placesInBounds(order === 'kids' ? kidsPlaces : places, bounds);
   const select = number => {
     setSelected(number);
@@ -111,13 +112,13 @@ function App() {
     <header className="intro"><div className="eyebrow"><svg className="swiss-flag" viewBox="0 0 32 32" role="img" aria-label="Swiss flag"><path fill="#da291c" d="M0 0h32v32H0z"/><path fill="#fff" d="M13 6h6v7h7v6h-7v7H6v-6h7z"/></svg> 1 to 9 April 2027 · {places.length} places</div><h1>Switzerland, in view.</h1><p>The Rhine, lakes and mountain villages, with practical notes for a family whose youngest child is three.</p><details className="trip-guide"><summary>How to read the kids ratings and plan for April</summary><p>Kids feasibility describes the effort and access for a family with a three-year-old: 5 very easy, 4 easy, 3 some planning, 2 demanding, 1 age restriction. It is separate from opening dates, weather and how much a place interests you. Every place stays on the map regardless of its rating.</p><p>Plan one main outing per day. Combine Lauterbrunnen with Wengen, keep mountain days flexible for a clear forecast, and use the transport museum or Technorama for rainy days. Choose Goldau or Zurich Zoo for a wildlife day. Ballenberg opens on <a href="https://ballenberg.ch/en/about-us/museum/" target="_blank" rel="noreferrer">15 April 2027</a>, after this visit. St Beatus Caves has <a href="https://www.beatushoehlen.swiss/en/caves/families-with-children/" target="_blank" rel="noreferrer">297 steps and no pushchair access</a>, so it is a more demanding alternative for the youngest.</p></details></header>
     <section className="map-panel" id="map-panel" aria-label="Explore places on the map">
       <div className="map-tools"><div className="region-bar" aria-label="Jump to an area">{regions.map(region => <button key={region.title} type="button" onClick={() => { setSelected(null); setView({ ids: region.ids }); }}>{region.title}</button>)}</div><button className="map-size-toggle" type="button" aria-controls="trip-map" aria-expanded={expanded} onClick={toggleMap}>{expanded ? 'Shrink map' : 'Expand map'}</button></div>
-      <div id="trip-map">
-        <MapContainer bounds={initialBounds} boundsOptions={{ padding: [16, 16] }} minZoom={6} maxZoom={18} scrollWheelZoom={false} className="map" aria-label="Map of suggested places in Switzerland" zoomControl={true}>
+      <div id="trip-map" onWheelCapture={() => { if (!expanded) flushSync(expandMap); }}>
+        <MapContainer bounds={initialBounds} boundsOptions={{ padding: [16, 16] }} minZoom={6} maxZoom={18} scrollWheelZoom={true} className="map" aria-label="Map of suggested places in Switzerland" zoomControl={true}>
           <TileLayer url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" attribution={'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'} maxZoom={19} />
           <MapPlaces visible={visible} onBounds={setBounds} selected={selected} onSelect={select} view={view} />
         </MapContainer>
       </div>
-      <div className="map-caption"><span>Drag to pan; use + or − to zoom. Scroll down to shrink the map, up to expand.</span><span>Numbers stay the same.</span></div>
+      <div className="map-caption"><span>Drag to pan. Scroll over the map to expand and zoom; scroll the list to shrink or expand the map.</span><span>Numbers stay the same.</span></div>
     </section>
     <main id="suggestions" className="suggestions">
       <div className="list-heading"><h2>Places in view</h2><label className="sort-order">Order by <select value={order} onChange={event => setOrder(event.target.value)}><option value="kids">Kids feasibility</option><option value="number">Map number</option></select></label><p role="status" aria-live="polite"><strong>{visible.length}</strong> of {places.length} places</p></div>

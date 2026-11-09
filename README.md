@@ -6,7 +6,7 @@ An interactive map and illustrated list of 25 places in Switzerland for 1 to 9 A
 
 The list defaults to kids feasibility, with map-number ordering also available. Ratings describe effort and access for a family whose youngest child is three: 5 very easy, 4 easy, 3 some planning, 2 demanding, 1 age restriction. Every mapped place remains available at every rating. Opening dates, seasonal uncertainty and family-access notes are shown separately.
 
-The map starts at about half the viewport height, shrinks while scrolling down, and expands before an upward wheel or touch gesture continues through the list. The map-size button also allows explicit control; keyboard and scrollbar navigation remain available. Leaflet resizes with its container.
+The map starts at about half the viewport height, shrinks while scrolling down the list, and expands before an upward wheel or touch gesture continues through the list. On desktop, scrolling over the map expands it to full size and zooms in or out without scrolling the page. The map-size button also allows explicit control; keyboard and scrollbar navigation remain available. Leaflet resizes with its container.
 
 Built with React, React Leaflet, Leaflet and Vite. The app is entirely static. It uses OpenStreetMap tiles without an API key.
 
