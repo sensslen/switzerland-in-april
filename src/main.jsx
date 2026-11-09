@@ -5,7 +5,7 @@ import { CircleMarker, MapContainer, Marker, Polyline, TileLayer, useMapEvents }
 import { divIcon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './style.css';
-import { kidsLabels, kidsPlaces, places, regions } from './trip.js';
+import { kidsLabels, places, regions } from './trip.js';
 import { placesInBounds, spreadPins } from './geo.js';
 import { useCollapsingMap } from './useCollapsingMap.js';
 
@@ -79,7 +79,7 @@ function Place({ place, selected, onLocate }) {
       <p className="description">{place.body}</p>
       <p className="kids-rating"><span className="rating-dots" aria-hidden="true">{Array.from({ length: 5 }, (_, index) => <span key={index} className={index < place.kidsFeasibility ? 'filled' : ''} />)}</span> Kids feasibility {place.kidsFeasibility}/5 · {kidsLabels[place.kidsFeasibility]}</p>
       <p className="family-note">{place.familyNote}</p>
-      <p className="april-note"><strong>1 to 9 April:</strong> {place.aprilNote}</p>
+      {place.aprilNote && <p className="april-note"><strong>1 to 9 April:</strong> {place.aprilNote}</p>}
       <div className="place-actions">
         <button type="button" onClick={() => onLocate(place)}>Locate on map <span aria-hidden="true">↗</span></button>
         <a href={`https://www.google.com/maps/search/?api=1&query=${place.lat},${place.lng}`} target="_blank" rel="noreferrer">Google Maps <span aria-hidden="true">↗</span></a>
@@ -94,9 +94,8 @@ function App() {
   const [bounds, setBounds] = useState(null);
   const [view, setView] = useState(null);
   const [selected, setSelected] = useState(null);
-  const [order, setOrder] = useState('kids');
   const { expanded, expandMap, toggleMap } = useCollapsingMap();
-  const visible = placesInBounds(order === 'kids' ? kidsPlaces : places, bounds);
+  const visible = placesInBounds(places, bounds);
   const select = number => {
     setSelected(number);
     document.getElementById(`place-${number}`)?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
@@ -109,7 +108,7 @@ function App() {
 
   return <>
     <a className="skip-link" href="#suggestions">Skip to places</a>
-    <header className="intro"><div className="eyebrow"><svg className="swiss-flag" viewBox="0 0 32 32" role="img" aria-label="Swiss flag"><path fill="#da291c" d="M0 0h32v32H0z"/><path fill="#fff" d="M13 6h6v7h7v6h-7v7H6v-6h7z"/></svg> 1 to 9 April 2027 · {places.length} places</div><h1>Switzerland, in view.</h1><p>The Rhine, lakes and mountain villages, with practical notes for a family whose youngest child is three.</p><details className="trip-guide"><summary>How to read the kids ratings and plan for April</summary><p>Kids feasibility describes the effort and access for a family with a three-year-old: 5 very easy, 4 easy, 3 some planning, 2 demanding, 1 age restriction. It is separate from opening dates, weather and how much a place interests you. Every place stays on the map regardless of its rating.</p><p>Plan one main outing per day. Combine Lauterbrunnen with Wengen, keep mountain days flexible for a clear forecast, and use the transport museum or Technorama for rainy days. Choose Goldau or Zurich Zoo for a wildlife day. Ballenberg opens on <a href="https://ballenberg.ch/en/about-us/museum/" target="_blank" rel="noreferrer">15 April 2027</a>, after this visit. St Beatus Caves has <a href="https://www.beatushoehlen.swiss/en/caves/families-with-children/" target="_blank" rel="noreferrer">297 steps and no pushchair access</a>, so it is a more demanding alternative for the youngest.</p></details></header>
+    <header className="intro"><div className="eyebrow"><svg className="swiss-flag" viewBox="0 0 32 32" role="img" aria-label="Swiss flag"><path fill="#da291c" d="M0 0h32v32H0z"/><path fill="#fff" d="M13 6h6v7h7v6h-7v7H6v-6h7z"/></svg> 1 to 9 April 2027 · {places.length} places</div><h1>Switzerland, in view.</h1><p>The Rhine, lakes and mountain villages, with practical notes for a family whose youngest child is three.</p><details className="trip-guide"><summary>How to read the kids ratings and plan for April</summary><p>Kids feasibility describes the effort and access for a family with a three-year-old: 5 very easy, 4 easy, 3 some planning, 2 demanding, 1 age restriction. It is separate from opening dates, weather and how much a place interests you. Every place stays on the map regardless of its rating.</p><p>Plan one main outing per day. Keep mountain days flexible for a clear forecast, and use the transport museum or Technorama for rainy days. Choose Goldau or Zurich Zoo for a wildlife day. Ballenberg opens on <a href="https://ballenberg.ch/en/about-us/museum/" target="_blank" rel="noreferrer">15 April 2027</a>, after this visit. St Beatus Caves has <a href="https://www.beatushoehlen.swiss/en/caves/families-with-children/" target="_blank" rel="noreferrer">297 steps and no pushchair access</a>, so it is a more demanding alternative for the youngest.</p></details></header>
     <section className="map-panel" id="map-panel" aria-label="Explore places on the map">
       <div className="map-tools"><div className="region-bar" aria-label="Jump to an area">{regions.map(region => <button key={region.title} type="button" onClick={() => { setSelected(null); setView({ ids: region.ids }); }}>{region.title}</button>)}</div><button className="map-size-toggle" type="button" aria-controls="trip-map" aria-expanded={expanded} onClick={toggleMap}>{expanded ? 'Shrink map' : 'Expand map'}</button></div>
       <div id="trip-map" onWheelCapture={() => { if (!expanded) flushSync(expandMap); }}>
@@ -121,7 +120,7 @@ function App() {
       <div className="map-caption"><span>Drag to pan. Scroll over the map to expand and zoom; scroll the list to shrink or expand the map.</span><span>Numbers stay the same.</span></div>
     </section>
     <main id="suggestions" className="suggestions">
-      <div className="list-heading"><h2>Places in view</h2><label className="sort-order">Order by <select value={order} onChange={event => setOrder(event.target.value)}><option value="kids">Kids feasibility</option><option value="number">Map number</option></select></label><p role="status" aria-live="polite"><strong>{visible.length}</strong> of {places.length} places</p></div>
+      <div className="list-heading"><h2>Places in view</h2><p role="status" aria-live="polite"><strong>{visible.length}</strong> of {places.length} places</p></div>
       {visible.length ? <ol className="places">{visible.map(place => <Place key={place.number} place={place} selected={place.number === selected} onLocate={locate} />)}</ol> : <div className="empty"><h3>No suggestions in this area</h3><p>The collection covers northeastern Switzerland, Lucerne and the Interlaken region.</p><button type="button" onClick={() => setView({ ids: regions[0].ids })}>Show all {places.length} places</button></div>}
     </main>
     <footer><p>For 1 to 9 April 2027. Opening information checked on 9 November 2026. Standing annual hours are distinguished from published 2027 dates; recheck operator notices before travelling. Photographs show different seasons. Dots indicate approximate locations; short lines connect spaced labels to their locations.</p><p>Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a>. Photographs retain their individual licences.</p></footer>

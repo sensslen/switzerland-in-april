@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import places from '../src/places.json' with { type: 'json' };
 import { placesInBounds, spreadPins } from '../src/geo.js';
-import { kidsLabels, kidsPlaces, regions } from '../src/trip.js';
+import { kidsLabels, regions } from '../src/trip.js';
 
 test('geographic place numbers survive filtering and returning to all places', () => {
   assert.deepEqual(places.map(place => place.number), Array.from({ length: 25 }, (_, i) => i + 1));
@@ -13,18 +13,12 @@ test('geographic place numbers survive filtering and returning to all places', (
   assert.deepEqual(placesInBounds(places, { south: 48, north: 49, west: 10, east: 11 }), []);
 });
 
-test('kids feasibility orders every place without hiding difficult or age-restricted visits', () => {
-  assert.deepEqual(kidsPlaces.map(place => place.number).sort((a, b) => a - b), places.map(place => place.number));
-  for (const [index, place] of kidsPlaces.entries()) {
+test('every place retains kids feasibility and family guidance, with optional seasonal notes', () => {
+  for (const place of places) {
     assert.ok(Number.isInteger(place.kidsFeasibility) && kidsLabels[place.kidsFeasibility], place.title);
-    assert.ok(place.familyNote && place.aprilNote, place.title);
-    if (index > 0) {
-      const previous = kidsPlaces[index - 1];
-      assert.ok(previous.kidsFeasibility > place.kidsFeasibility ||
-        (previous.kidsFeasibility === place.kidsFeasibility && previous.number < place.number));
-    }
+    assert.ok(place.familyNote, place.title);
+    if ('aprilNote' in place) assert.ok(place.aprilNote.trim(), place.title);
   }
-  assert.equal(kidsPlaces.at(-1).number, 25);
 });
 
 test('each place belongs to exactly one regional shortcut, including the new additions', () => {
