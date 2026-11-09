@@ -1,5 +1,34 @@
 import { expect, test } from '@playwright/test';
 
+test('desktop wheel input over the map expands it and zooms without scrolling the page', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('.place')).toHaveCount(25);
+  const map = page.locator('.map');
+  const mapHeight = () => map.evaluate(element => element.clientHeight);
+  const zoomLevel = () => map.locator('.leaflet-tile-container').evaluateAll(levels => {
+    const active = levels.reduce((current, level) => Number(level.style.zIndex) > Number(current.style.zIndex) ? level : current);
+    return Number(new URL(active.querySelector('img').src).pathname.split('/')[1]);
+  });
+  const initialZoom = await zoomLevel();
+  await page.mouse.move(1100, 850);
+  await page.mouse.wheel(0, 800);
+  await expect.poll(mapHeight).toBe(140);
+  const position = await page.evaluate(() => scrollY);
+  await map.hover();
+  await page.mouse.wheel(0, -120);
+  await expect.poll(mapHeight).toBe(450);
+  await expect.poll(zoomLevel).toBeGreaterThan(initialZoom);
+  expect(await page.evaluate(() => scrollY)).toBe(position);
+  const zoomedIn = await zoomLevel();
+  await page.getByRole('button', { name: 'Shrink map', exact: true }).click();
+  await expect.poll(mapHeight).toBe(140);
+  await map.hover();
+  await page.mouse.wheel(0, 120);
+  await expect.poll(mapHeight).toBe(450);
+  await expect.poll(zoomLevel).toBeLessThan(zoomedIn);
+  expect(await page.evaluate(() => scrollY)).toBe(position);
+});
+
 test('the map expands before upward scrolling and resizing preserves the places', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('.place')).toHaveCount(25);

@@ -30,7 +30,7 @@ export function useCollapsingMap() {
       if (delta + growth < 0) window.scrollBy(0, delta + growth);
     };
     const onWheel = event => {
-      if (event.ctrlKey || Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
+      if (event.ctrlKey || event.target.closest('.leaflet-container') || Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
       const unit = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? innerHeight : 1;
       expandFirst(event, event.deltaY * unit);
     };
@@ -68,5 +68,9 @@ export function useCollapsingMap() {
   }, [height]);
 
   const expanded = height >= sizes.current.max;
-  return { expanded, toggleMap: () => resizeMap(expanded ? sizes.current.min : sizes.current.max) };
+  return {
+    expanded,
+    expandMap: () => resizeMap(sizes.current.max),
+    toggleMap: () => resizeMap(expanded ? sizes.current.min : sizes.current.max),
+  };
 }
