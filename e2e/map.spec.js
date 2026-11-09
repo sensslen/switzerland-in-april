@@ -49,10 +49,10 @@ test('the map expands before upward scrolling and resizing preserves the places'
   await page.getByLabel('Order by').selectOption('number');
   await expect(page.locator('.place').first()).toHaveAttribute('value', '1');
   await page.getByLabel('Order by').selectOption('kids');
-  await expect(page.locator('.place').last()).toHaveAttribute('value', '21');
-  await page.locator('#place-26').getByRole('button', { name: 'Locate on map' }).click();
+  await expect(page.locator('.place').last()).toHaveAttribute('value', '25');
+  await page.locator('#place-10').getByRole('button', { name: 'Locate on map' }).click();
   await expect(page.locator('.place')).toHaveCount(1);
-  await expect(page.locator('.place')).toHaveAttribute('value', '26');
+  await expect(page.locator('.place')).toHaveAttribute('value', '10');
   await page.getByRole('button', { name: 'All places', exact: true }).click();
   await expect(page.locator('.place')).toHaveCount(25);
 });

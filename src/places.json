@@ -1,91 +1,93 @@
 [
   {
     "number": 1,
-    "title": "Kartause Ittingen, Warth",
-    "meta": "Quieter discovery | monastery, gardens and museums",
-    "body": "A former Carthusian monastery with historic courtyards, gardens, a farm shop, the Ittinger Museum and Kunstmuseum Thurgau. Self-guided discovery routes explore its water, woodland and monastic history. The gardens are accessible in spring; the rose display belongs to a later season.",
+    "title": "Rhine Falls / Rheinfall",
+    "meta": "Waterfall, viewing platforms and boat trips",
+    "body": "A wide waterfall below Schloss Laufen, with riverside viewpoints, platforms close to the water and boat trips. Viewpoints on the north bank provide an alternative to the stepped rock excursion.",
     "links": [
       [
-        "Discovery walks and scavenger hunt",
-        "https://www.kartause.ch/kultur-und-erlebnisse/erlebnisse"
+        "Official Rhine Falls information",
+        "https://rheinfall.ch/en/"
+      ],
+      [
+        "Boat options and height advice",
+        "https://rhyfall-maendli.ch/en/boat-tours-experiences/rock-tour/"
       ]
     ],
-    "lat": 47.5838,
-    "lng": 8.8672,
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/2/21/KartauseIttingen.jpg",
-    "caption": "Kartause Ittingen",
+    "lat": 47.67722,
+    "lng": 8.61583,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/SBB_RABe_514_DTZ_Rheinfall.jpg/960px-SBB_RABe_514_DTZ_Rheinfall.jpg",
+    "caption": "Rhine Falls and Schloss Laufen",
     "width": 960,
-    "height": 651,
+    "height": 640,
     "credit": {
-      "author": "Roland Zumbühl / Picswiss",
-      "license": "CC BY-SA 3.0",
-      "source": "https://commons.wikimedia.org/wiki/File:KartauseIttingen.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      "author": "Kabelleger / David Gubler",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:SBB_RABe_514_DTZ_Rheinfall.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "kidsFeasibility": 4,
-    "familyNote": "Choose short discovery walks and the grounds for an easy family visit; the museums suit children according to their interests.",
-    "aprilNote": "The grounds are a spring option. Roses flower later; museum visits follow the standing winter opening hours."
+    "familyNote": "Use the riverside viewpoints or a short round trip without a rock landing. The Rock Experience has over 100 steps and is not recommended below 1.2 metres in height.",
+    "aprilNote": "The falls can be viewed year-round. Boat operators normally serve the spring season, but their exact 2027 departures still need checking.",
+    "photoPosition": "50% 60%"
   },
   {
     "number": 2,
-    "title": "Seebachtal lakes near Hüttwilen and Nussbaumen",
-    "meta": "Quieter discovery | lakes, walking and nature",
-    "body": "The Hüttwilersee, Nussbaumersee and Hasensee lie in a protected landscape of reeds, woodland and farmland. Lakeside walking and birdwatching are the main activities. This is one of the quieter natural settings close to Frauenfeld, with low-altitude paths suitable for spring conditions.",
+    "title": "Schaffhausen old town and Munot fortress",
+    "meta": "Old town and historic fortress",
+    "body": "Schaffhausen has a historic old town with painted facades and projecting windows. The circular Munot fortress rises above the town and Rhine, surrounded by vineyards. The fortress adds ramparts, interior spaces and elevated views to the old-town sights.",
     "links": [
       [
-        "Thurgau Tourism's Seebachtal guide",
-        "https://thurgau-bodensee.ch/blog/story/wein-und-natur-im-seebachtal-05e64b88-adc8-486f-95d2-7449d5d07d31.html"
+        "Munot visitor information",
+        "https://en.schaffhauserland.ch/map/poi/munot-33334310-d1a3-4b30-bb1c-9eb9acbe3c1b.html"
       ],
       [
-        "Accessible walking route information",
-        "https://en.thurgau-bodensee.ch/blog/story/wein-und-natur-im-seebachtal-05e64b88-adc8-486f-95d2-7449d5d07d31.html"
+        "Munot opening hours and access",
+        "https://munot.ch/hereinspaziert/"
       ]
     ],
-    "lat": 47.61056,
-    "lng": 8.8425,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/H%C3%BCttwilersee.JPG/960px-H%C3%BCttwilersee.JPG",
-    "caption": "Hüttwilersee in the Seebachtal",
+    "lat": 47.69694,
+    "lng": 8.63972,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Schaffhausen_-_Munot_01.jpg/960px-Schaffhausen_-_Munot_01.jpg",
+    "caption": "Munot fortress",
     "width": 960,
-    "height": 720,
+    "height": 702,
     "credit": {
-      "author": "Peter Berger",
-      "license": "Public domain",
-      "source": "https://commons.wikimedia.org/wiki/File:H%C3%BCttwilersee.JPG"
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Schaffhausen_-_Munot_01.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
-    "kidsFeasibility": 4,
-    "familyNote": "Choose a short section of accessible route 918 with a stroller, rather than committing to a full circuit of the lakes.",
-    "aprilNote": "Low-altitude nature walks fit this visit. Individual natural paths can be muddy after rain; this is a walking outing rather than a swimming stop."
+    "kidsFeasibility": 3,
+    "familyNote": "The old town is a flexible family stop. Munot adds steep approaches, stairs and a cobbled ramp, so it takes more effort with a stroller.",
+    "aprilNote": "The standing October-to-April Munot hours are 09:00 to 17:00. Combine the town with Rhine Falls rather than assuming summer events are running."
   },
   {
     "number": 3,
-    "title": "Altnau apple trail and orchard country",
-    "meta": "Quieter discovery | orchards and a themed trail",
-    "body": "The Altnau apple trail runs through orchards near Lake Constance, with themed information stations about fruit growing. The countryside and themed trail can be explored independently of the blossom.",
+    "title": "Stein am Rhein",
+    "meta": "Medieval old town and riverfront",
+    "body": "A compact medieval town where Lake Constance becomes the Rhine. Painted facades and decorated houses surround Rathausplatz, with riverfront scenery nearby. Its preserved centre is the main attraction; Insel Werd is a separate, quieter sight in neighbouring Eschenz.",
     "links": [
       [
-        "Altnau apple trail",
-        "https://www.myswitzerland.com/en-ch/experiences/altnau-apple-trail/"
-      ],
-      [
-        "Current blossom information",
-        "https://thurgau-bodensee.ch/aktuelles/obstbaumbluete.html"
+        "Stein am Rhein visitor guide",
+        "https://schaffhauserland.ch/region/stein-am-rhein.html"
       ]
     ],
-    "lat": 47.61667,
-    "lng": 9.25,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Altnau-Thurgau-Spring.jpg/960px-Altnau-Thurgau-Spring.jpg",
-    "caption": "Apple blossom in Altnau, flowering is not guaranteed during this visit",
+    "lat": 47.66667,
+    "lng": 8.85,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Rathausplatz_5%2C_7%2C_9%2C_11_und_13_in_Stein_am_Rhein.jpg/960px-Rathausplatz_5%2C_7%2C_9%2C_11_und_13_in_Stein_am_Rhein.jpg",
+    "caption": "Painted houses in Stein am Rhein",
     "width": 960,
-    "height": 532,
+    "height": 620,
     "credit": {
-      "author": "GabrielleMerk",
+      "author": "JoachimKohler-HB",
       "license": "CC BY-SA 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Altnau-Thurgau-Spring.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rathausplatz_5,_7,_9,_11_und_13_in_Stein_am_Rhein.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     "kidsFeasibility": 4,
-    "familyNote": "An easy orchard outing if the children enjoy themed walking trails. Choose the distance to suit the youngest.",
-    "aprilNote": "The trail is accessible, but apple blossom is not dependable this early. Check the local blossom report before making a special journey."
+    "familyNote": "A compact old-town and riverfront stop. Pair it with Insel Werd if the children have energy for another short walk.",
+    "aprilNote": "The outdoor town visit fits early April. Boat services and museum interiors are separate activities with their own opening arrangements."
   },
   {
     "number": 4,
@@ -118,123 +120,94 @@
   },
   {
     "number": 5,
-    "title": "Rhine Falls / Rheinfall",
-    "meta": "Waterfall, viewing platforms and boat trips",
-    "body": "A wide waterfall below Schloss Laufen, with riverside viewpoints, platforms close to the water and boat trips. Viewpoints on the north bank provide an alternative to the stepped rock excursion.",
+    "title": "Seebachtal lakes near Hüttwilen and Nussbaumen",
+    "meta": "Quieter discovery | lakes, walking and nature",
+    "body": "The Hüttwilersee, Nussbaumersee and Hasensee lie in a protected landscape of reeds, woodland and farmland. Lakeside walking and birdwatching are the main activities. This is one of the quieter natural settings close to Frauenfeld, with low-altitude paths suitable for spring conditions.",
     "links": [
       [
-        "Official Rhine Falls information",
-        "https://rheinfall.ch/en/"
+        "Thurgau Tourism's Seebachtal guide",
+        "https://thurgau-bodensee.ch/blog/story/wein-und-natur-im-seebachtal-05e64b88-adc8-486f-95d2-7449d5d07d31.html"
       ],
       [
-        "Boat options and height advice",
-        "https://rhyfall-maendli.ch/en/boat-tours-experiences/rock-tour/"
+        "Accessible walking route information",
+        "https://en.thurgau-bodensee.ch/blog/story/wein-und-natur-im-seebachtal-05e64b88-adc8-486f-95d2-7449d5d07d31.html"
       ]
     ],
-    "lat": 47.67722,
-    "lng": 8.61583,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/SBB_RABe_514_DTZ_Rheinfall.jpg/960px-SBB_RABe_514_DTZ_Rheinfall.jpg",
-    "caption": "Rhine Falls and Schloss Laufen",
+    "lat": 47.61056,
+    "lng": 8.8425,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/H%C3%BCttwilersee.JPG/960px-H%C3%BCttwilersee.JPG",
+    "caption": "Hüttwilersee in the Seebachtal",
     "width": 960,
-    "height": 640,
+    "height": 720,
     "credit": {
-      "author": "Kabelleger / David Gubler",
-      "license": "CC BY-SA 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:SBB_RABe_514_DTZ_Rheinfall.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "author": "Peter Berger",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:H%C3%BCttwilersee.JPG"
     },
     "kidsFeasibility": 4,
-    "familyNote": "Use the riverside viewpoints or a short round trip without a rock landing. The Rock Experience has over 100 steps and is not recommended below 1.2 metres in height.",
-    "aprilNote": "The falls can be viewed year-round. Boat operators normally serve the spring season, but their exact 2027 departures still need checking.",
-    "photoPosition": "50% 60%"
+    "familyNote": "Choose a short section of accessible route 918 with a stroller, rather than committing to a full circuit of the lakes.",
+    "aprilNote": "Low-altitude nature walks fit this visit. Individual natural paths can be muddy after rain; this is a walking outing rather than a swimming stop."
   },
   {
     "number": 6,
-    "title": "Schaffhausen old town and Munot fortress",
-    "meta": "Old town and historic fortress",
-    "body": "Schaffhausen has a historic old town with painted facades and projecting windows. The circular Munot fortress rises above the town and Rhine, surrounded by vineyards. The fortress adds ramparts, interior spaces and elevated views to the old-town sights.",
+    "title": "Kartause Ittingen, Warth",
+    "meta": "Quieter discovery | monastery, gardens and museums",
+    "body": "A former Carthusian monastery with historic courtyards, gardens, a farm shop, the Ittinger Museum and Kunstmuseum Thurgau. Self-guided discovery routes explore its water, woodland and monastic history. The gardens are accessible in spring; the rose display belongs to a later season.",
     "links": [
       [
-        "Munot visitor information",
-        "https://en.schaffhauserland.ch/map/poi/munot-33334310-d1a3-4b30-bb1c-9eb9acbe3c1b.html"
-      ],
-      [
-        "Munot opening hours and access",
-        "https://munot.ch/hereinspaziert/"
+        "Discovery walks and scavenger hunt",
+        "https://www.kartause.ch/kultur-und-erlebnisse/erlebnisse"
       ]
     ],
-    "lat": 47.69694,
-    "lng": 8.63972,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Schaffhausen_-_Munot_01.jpg/960px-Schaffhausen_-_Munot_01.jpg",
-    "caption": "Munot fortress",
+    "lat": 47.5838,
+    "lng": 8.8672,
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/2/21/KartauseIttingen.jpg",
+    "caption": "Kartause Ittingen",
     "width": 960,
-    "height": 702,
+    "height": 651,
     "credit": {
-      "author": "H. Zell",
+      "author": "Roland Zumbühl / Picswiss",
       "license": "CC BY-SA 3.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Schaffhausen_-_Munot_01.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      "source": "https://commons.wikimedia.org/wiki/File:KartauseIttingen.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
-    "kidsFeasibility": 3,
-    "familyNote": "The old town is a flexible family stop. Munot adds steep approaches, stairs and a cobbled ramp, so it takes more effort with a stroller.",
-    "aprilNote": "The standing October-to-April Munot hours are 09:00 to 17:00. Combine the town with Rhine Falls rather than assuming summer events are running."
+    "kidsFeasibility": 4,
+    "familyNote": "Choose short discovery walks and the grounds for an easy family visit; the museums suit children according to their interests.",
+    "aprilNote": "The grounds are a spring option. Roses flower later; museum visits follow the standing winter opening hours."
   },
   {
     "number": 7,
-    "title": "Stein am Rhein",
-    "meta": "Medieval old town and riverfront",
-    "body": "A compact medieval town where Lake Constance becomes the Rhine. Painted facades and decorated houses surround Rathausplatz, with riverfront scenery nearby. Its preserved centre is the main attraction; Insel Werd is a separate, quieter sight in neighbouring Eschenz.",
+    "title": "Altnau apple trail and orchard country",
+    "meta": "Quieter discovery | orchards and a themed trail",
+    "body": "The Altnau apple trail runs through orchards near Lake Constance, with themed information stations about fruit growing. The countryside and themed trail can be explored independently of the blossom.",
     "links": [
       [
-        "Stein am Rhein visitor guide",
-        "https://schaffhauserland.ch/region/stein-am-rhein.html"
+        "Altnau apple trail",
+        "https://www.myswitzerland.com/en-ch/experiences/altnau-apple-trail/"
+      ],
+      [
+        "Current blossom information",
+        "https://thurgau-bodensee.ch/aktuelles/obstbaumbluete.html"
       ]
     ],
-    "lat": 47.66667,
-    "lng": 8.85,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Rathausplatz_5%2C_7%2C_9%2C_11_und_13_in_Stein_am_Rhein.jpg/960px-Rathausplatz_5%2C_7%2C_9%2C_11_und_13_in_Stein_am_Rhein.jpg",
-    "caption": "Painted houses in Stein am Rhein",
+    "lat": 47.61667,
+    "lng": 9.25,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Altnau-Thurgau-Spring.jpg/960px-Altnau-Thurgau-Spring.jpg",
+    "caption": "Apple blossom in Altnau, flowering is not guaranteed during this visit",
     "width": 960,
-    "height": 620,
+    "height": 532,
     "credit": {
-      "author": "JoachimKohler-HB",
+      "author": "GabrielleMerk",
       "license": "CC BY-SA 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Rathausplatz_5,_7,_9,_11_und_13_in_Stein_am_Rhein.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Altnau-Thurgau-Spring.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     "kidsFeasibility": 4,
-    "familyNote": "A compact old-town and riverfront stop. Pair it with Insel Werd if the children have energy for another short walk.",
-    "aprilNote": "The outdoor town visit fits early April. Boat services and museum interiors are separate activities with their own opening arrangements."
+    "familyNote": "An easy orchard outing if the children enjoy themed walking trails. Choose the distance to suit the youngest.",
+    "aprilNote": "The trail is accessible, but apple blossom is not dependable this early. Check the local blossom report before making a special journey."
   },
   {
     "number": 8,
-    "title": "Zurich old town, Lindenhof and the lake",
-    "meta": "Old town, viewpoint and lakefront",
-    "body": "Zurich's old town spreads along the Limmat, with lanes, churches and riverfront buildings. The elevated Lindenhof has views over the old town; the lakefront opens out toward Lake Zurich. Scheduled boat services add a separate activity on the water.",
-    "links": [
-      [
-        "Zurich's Lindenhof",
-        "https://www.zuerich.com/en/visit/nature/lindenhof"
-      ]
-    ],
-    "lat": 47.37306,
-    "lng": 8.54083,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Grossm%C3%BCnster_and_Limmat_River%2C_Zurich%2C_20250330_1239_7929.jpg/960px-Grossm%C3%BCnster_and_Limmat_River%2C_Zurich%2C_20250330_1239_7929.jpg",
-    "caption": "Grossmünster and the Limmat",
-    "width": 960,
-    "height": 641,
-    "credit": {
-      "author": "Jakub Hałun",
-      "license": "CC BY 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Grossm%C3%BCnster_and_Limmat_River,_Zurich,_20250330_1239_7929.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-    },
-    "kidsFeasibility": 4,
-    "familyNote": "Keep the old-town walk short and add the lakefront or a tram ride. Zurich Zoo offers a separate family outing nearby.",
-    "aprilNote": "The city walk does not depend on a seasonal attraction. Check the selected boat service before including a lake cruise."
-  },
-  {
-    "number": 9,
     "title": "Technorama, Winterthur",
     "meta": "Interactive science centre | indoors and outdoors",
     "body": "A hands-on science centre in Winterthur with hundreds of experiments involving natural phenomena and technology. Visitors operate the exhibits themselves. Indoor galleries and an outdoor experiment park offer different ways to explore.",
@@ -265,7 +238,61 @@
     "aprilNote": "The standing schedule is daily, 10:00 to 17:00. Indoor exhibits make this a useful rainy-day choice; outdoor experiments depend on conditions."
   },
   {
+    "number": 9,
+    "title": "Zurich old town, Lindenhof and the lake",
+    "meta": "Old town, viewpoint and lakefront",
+    "body": "Zurich's old town spreads along the Limmat, with lanes, churches and riverfront buildings. The elevated Lindenhof has views over the old town; the lakefront opens out toward Lake Zurich. Scheduled boat services add a separate activity on the water.",
+    "links": [
+      [
+        "Zurich's Lindenhof",
+        "https://www.zuerich.com/en/visit/nature/lindenhof"
+      ]
+    ],
+    "lat": 47.37306,
+    "lng": 8.54083,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Grossm%C3%BCnster_and_Limmat_River%2C_Zurich%2C_20250330_1239_7929.jpg/960px-Grossm%C3%BCnster_and_Limmat_River%2C_Zurich%2C_20250330_1239_7929.jpg",
+    "caption": "Grossmünster and the Limmat",
+    "width": 960,
+    "height": 641,
+    "credit": {
+      "author": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grossm%C3%BCnster_and_Limmat_River,_Zurich,_20250330_1239_7929.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "kidsFeasibility": 4,
+    "familyNote": "Keep the old-town walk short and add the lakefront or a tram ride. Zurich Zoo offers a separate family outing nearby.",
+    "aprilNote": "The city walk does not depend on a seasonal attraction. Check the selected boat service before including a lake cruise."
+  },
+  {
     "number": 10,
+    "title": "Zurich Zoo and Masoala Rainforest",
+    "meta": "Zoo, animal habitats and indoor rainforest",
+    "body": "Zurich Zoo combines outdoor animal habitats with the indoor Masoala Rainforest. A separate zoo visit adds an animal-focused outing to Zurich's old-town and lakefront sights.",
+    "kidsFeasibility": 4,
+    "familyNote": "Choose a few animal areas rather than trying to cover the whole zoo with a three-year-old. Masoala provides an indoor part of the visit; outdoor sections still involve walking. Choose this or Goldau according to your route.",
+    "aprilNote": "The zoo's standing policy is open 365 days a year. March-to-October hours are 09:00 to 18:00, with Masoala opening at 10:00. Recheck the travel-day notices and individual animal-area access.",
+    "links": [
+      [
+        "Official opening hours",
+        "https://zoo.ch/en/plan-your-visit/opening-hours"
+      ]
+    ],
+    "lat": 47.3848,
+    "lng": 8.5749,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/MasoalaHalle_TurmView.jpg/960px-MasoalaHalle_TurmView.jpg",
+    "caption": "Inside the Masoala Rainforest at Zurich Zoo",
+    "width": 960,
+    "height": 639,
+    "credit": {
+      "author": "Albinfo",
+      "license": "CC0 1.0",
+      "source": "https://commons.wikimedia.org/wiki/File:MasoalaHalle_TurmView.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  {
+    "number": 11,
     "title": "Lucerne old town and lakefront",
     "meta": "Historic city, wooden bridge and lake",
     "body": "Lucerne's covered wooden Chapel Bridge crosses the Reuss beside the Water Tower. The old town has historic squares and painted buildings, while the lakefront looks across Lake Lucerne toward the mountains. Scheduled lake cruises are another activity from the city.",
@@ -293,7 +320,7 @@
     "photoPosition": "50% 50%"
   },
   {
-    "number": 11,
+    "number": 12,
     "title": "Swiss Museum of Transport / Verkehrshaus",
     "meta": "Interactive transport museum | indoors and outdoors",
     "body": "An interactive museum about transport and mobility, with trains, aircraft, road vehicles and shipping exhibits. It is open 365 days a year. The planetarium, cinema and Swiss Chocolate Adventure are additional attractions with separate ticket or package arrangements.",
@@ -324,7 +351,7 @@
     "aprilNote": "Open 365 days a year under the standing policy. Check the day's opening times and attraction programme. Museum entry and the additional attractions use different ticket arrangements."
   },
   {
-    "number": 12,
+    "number": 13,
     "title": "Rigi by cogwheel train",
     "meta": "Mountain railway and viewpoints",
     "body": "Cogwheel railways reach Rigi's viewpoints above Lake Lucerne. The Vitznau route provides a lakeside approach to Rigi Kaltbad and Rigi Kulm. Railway access and mountain-path conditions are separate considerations.",
@@ -360,34 +387,67 @@
     "photoPosition": "50% 60%"
   },
   {
-    "number": 13,
-    "title": "Unterseen and the Aare riverside",
-    "meta": "Quieter discovery | old town and riverside",
-    "body": "A historic town beside the Aare, near Interlaken West. Stadthausplatz, old buildings and the riverside are the main sights. Unterseen offers a quieter town setting close to central Interlaken.",
+    "number": 14,
+    "title": "Natur- und Tierpark Goldau",
+    "meta": "Wildlife park, woodland and family activities",
+    "body": "A wildlife park in the wooded landscape of the Goldau landslide, home to native and European animal species. Some deer and other animals move through free-ranging areas, alongside larger animal enclosures.",
+    "kidsFeasibility": 4,
+    "familyNote": "Animals and playgrounds make a flexible family day. Choose the main routes with a stroller; some paths are less accessible. This is an alternative wildlife day to Zurich Zoo.",
+    "aprilNote": "The standing April-to-October opening hours are daily, 09:00 to 18:00. This outing does not depend on the mountain railways operating; check the day's park notices before travelling.",
     "links": [
       [
-        "Unterseen old town",
-        "https://www.brienzersee.ch/en/experiences/poi/unterseen-old-town"
+        "Official opening hours",
+        "https://www.tierpark.ch/tierpark-besuch/oeffnungszeiten/"
+      ],
+      [
+        "Family and access information",
+        "https://www.tierpark.ch/tierpark-besuch/faq/"
       ]
     ],
-    "lat": 46.68333,
-    "lng": 7.85,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Unterseen%2C_Aare.jpg/960px-Unterseen%2C_Aare.jpg",
-    "caption": "Unterseen and the Aare",
+    "lat": 47.0506,
+    "lng": 8.5538,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Besucherplattform_B%C3%A4r-_und_Wolfanlage.jpg/960px-Besucherplattform_B%C3%A4r-_und_Wolfanlage.jpg",
+    "caption": "Visitors at the bear and wolf enclosure in Goldau",
+    "width": 960,
+    "height": 639,
+    "credit": {
+      "author": "TierparkGoldau",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Besucherplattform_B%C3%A4r-_und_Wolfanlage.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "photoPosition": "50% 40%"
+  },
+  {
+    "number": 15,
+    "title": "Thun old town, Schadau Park and castle",
+    "meta": "Old town, lakefront park and an optional castle visit",
+    "body": "Thun's old town sits beside the Aare below its medieval castle. Schadau Park adds an open lakeside setting at the outlet of Lake Thun. The castle museum provides views across the town, lake and mountains.",
+    "kidsFeasibility": 3,
+    "familyNote": "The town and park can be explored in short sections. The castle interior has many stairs and no internal lift, so make that part optional for the youngest and leave the stroller outside the museum.",
+    "aprilNote": "The castle's standing April-to-June schedule is daily, 10:00 to 17:00, with last entry 30 minutes before closing. Unlike Spiez's museum, this is an April castle option; recheck any special closures.",
+    "links": [
+      [
+        "Castle hours, stairs and family access",
+        "https://schlossthun.ch/en/visitor-information/faq/"
+      ]
+    ],
+    "lat": 46.7597,
+    "lng": 7.629,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Thun_mit_Schloss.jpg/960px-Thun_mit_Schloss.jpg",
+    "caption": "Thun old town and castle",
     "width": 960,
     "height": 540,
     "credit": {
-      "author": "Kroli69",
-      "license": "CC BY-SA 3.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Unterseen,_Aare.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      "author": "Daniel Reust",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Thun_mit_Schloss.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
     },
-    "kidsFeasibility": 5,
-    "familyNote": "A short town and riverside outing that can be adjusted around the youngest child's energy. Useful while staying near Interlaken.",
-    "aprilNote": "The town walk does not depend on summer openings. Choose a short riverside section suited to the day's conditions."
+    "photoPosition": "50% 40%"
   },
   {
-    "number": 14,
+    "number": 16,
     "title": "Spiez bay on Lake Thun",
     "meta": "Lakefront, harbour and castle",
     "body": "Spiez's bay on Lake Thun has a harbour, a castle park and church above the waterfront, with vineyards behind. The bay is an outdoor attraction in its own right, with boat connections to other Lake Thun destinations.",
@@ -427,39 +487,62 @@
     "photoPosition": "50% 40%"
   },
   {
-    "number": 15,
-    "title": "Brienz village and Lake Brienz",
-    "meta": "Village, chalets and lake cruises",
-    "body": "A lakeside village known for wooden chalets, woodcarving and its waterfront promenade. Brunngasse is one of its historic streets. A lake cruise adds views from the water.",
+    "number": 17,
+    "title": "Unterseen and the Aare riverside",
+    "meta": "Quieter discovery | old town and riverside",
+    "body": "A historic town beside the Aare, near Interlaken West. Stadthausplatz, old buildings and the riverside are the main sights. Unterseen offers a quieter town setting close to central Interlaken.",
     "links": [
       [
-        "Lake Brienz cruises",
-        "https://www.interlaken.swiss/en/experiences/lakes-waterfalls/lake-brienz/cruises-on-lake-brienz"
-      ],
-      [
-        "BLS's published 2027 timetable",
-        "https://www.bls-schiff.ch/sites/default/files/2026-09/timetable_bls_schifffahrt_2027.pdf"
+        "Unterseen old town",
+        "https://www.brienzersee.ch/en/experiences/poi/unterseen-old-town"
       ]
     ],
-    "lat": 46.75,
-    "lng": 8.03333,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Panorama_of_Brienzersee.jpg/960px-Panorama_of_Brienzersee.jpg",
-    "caption": "Lake Brienz, viewed from Oberried",
+    "lat": 46.68333,
+    "lng": 7.85,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Unterseen%2C_Aare.jpg/960px-Unterseen%2C_Aare.jpg",
+    "caption": "Unterseen and the Aare",
     "width": 960,
-    "height": 341,
+    "height": 540,
     "credit": {
-      "author": "Nicojonesgodel",
-      "license": "CC BY-SA 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Brienzersee.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      "author": "Kroli69",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Unterseen,_Aare.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
     "kidsFeasibility": 5,
-    "familyNote": "Choose the waterfront and village, with an optional boat ride. A train in one direction keeps the excursion shorter than a full boat round trip.",
-    "aprilNote": "Lake Brienz boats run from 26 March 2027. The spring timetable has daily Interlaken Ost departures for Brienz at 10:10, 12:10 and 14:10, returning from Brienz at 11:10, 13:10 and 15:10. Summer steamers are a separate later-season offering.",
-    "photoFit": "contain"
+    "familyNote": "A short town and riverside outing that can be adjusted around the youngest child's energy. Useful while staying near Interlaken.",
+    "aprilNote": "The town walk does not depend on summer openings. Choose a short riverside section suited to the day's conditions."
   },
   {
-    "number": 16,
+    "number": 18,
+    "title": "Harder Kulm above Interlaken",
+    "meta": "Mountain viewpoint and funicular",
+    "body": "A funicular from Interlaken reaches this viewpoint above the town, with views over Lakes Thun and Brienz. It offers a short mountain excursion when the railway is operating.",
+    "links": [
+      [
+        "Current and seasonal operating dates",
+        "https://www.jungfrau.ch/en-gb/live/operating-info/"
+      ]
+    ],
+    "lat": 46.6989,
+    "lng": 7.8516,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg/960px-14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg",
+    "caption": "Harder Kulm and Lake Thun",
+    "width": 960,
+    "height": 540,
+    "credit": {
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "kidsFeasibility": 4,
+    "familyNote": "A short funicular ride and viewpoint outing when operating. The viewing platform and short approach suit a brief visit; longer mountain paths need a separate conditions check.",
+    "aprilNote": "An official opening date covering 1 to 9 April 2027 could not be verified. Keep this available as an option, but confirm the operator's season before planning around it.",
+    "photoPosition": "50% 60%"
+  },
+  {
+    "number": 19,
     "title": "Ringgenberg and a short lakeside walk",
     "meta": "Quieter discovery | lakeside village and castle-church",
     "body": "Ringgenberg stands on Lake Brienz's north shore, with a castle-church above the lake and paths through woodland and along the shore. Nearby Goldswil and Burgseeli add a smaller lake setting.",
@@ -491,7 +574,39 @@
     "photoPosition": "50% 40%"
   },
   {
-    "number": 17,
+    "number": 20,
+    "title": "Brienz village and Lake Brienz",
+    "meta": "Village, chalets and lake cruises",
+    "body": "A lakeside village known for wooden chalets, woodcarving and its waterfront promenade. Brunngasse is one of its historic streets. A lake cruise adds views from the water.",
+    "links": [
+      [
+        "Lake Brienz cruises",
+        "https://www.interlaken.swiss/en/experiences/lakes-waterfalls/lake-brienz/cruises-on-lake-brienz"
+      ],
+      [
+        "BLS's published 2027 timetable",
+        "https://www.bls-schiff.ch/sites/default/files/2026-09/timetable_bls_schifffahrt_2027.pdf"
+      ]
+    ],
+    "lat": 46.75,
+    "lng": 8.03333,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Panorama_of_Brienzersee.jpg/960px-Panorama_of_Brienzersee.jpg",
+    "caption": "Lake Brienz, viewed from Oberried",
+    "width": 960,
+    "height": 341,
+    "credit": {
+      "author": "Nicojonesgodel",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Brienzersee.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "kidsFeasibility": 5,
+    "familyNote": "Choose the waterfront and village, with an optional boat ride. A train in one direction keeps the excursion shorter than a full boat round trip.",
+    "aprilNote": "Lake Brienz boats run from 26 March 2027. The spring timetable has daily Interlaken Ost departures for Brienz at 10:10, 12:10 and 14:10, returning from Brienz at 11:10, 13:10 and 15:10. Summer steamers are a separate later-season offering.",
+    "photoFit": "contain"
+  },
+  {
+    "number": 21,
     "title": "Giessbach Falls",
     "meta": "Waterfalls, woodland and historic hotel",
     "body": "The Giessbach descends through woodland in 14 cascades toward Lake Brienz, beside the historic Grandhotel Giessbach. Paths connect viewpoints around the falls, and a funicular links the lakeside landing with the hotel.",
@@ -527,7 +642,66 @@
     "photoFit": "contain"
   },
   {
-    "number": 18,
+    "number": 22,
+    "title": "Aare Gorge / Aareschlucht, Meiringen",
+    "meta": "Gorge walk and tunnels",
+    "body": "Walkways and tunnels follow the Aare through a narrow limestone gorge. The Tatzi trail adds a creature-search activity.",
+    "links": [
+      [
+        "2027 dates, Tatzi trail and stroller information",
+        "https://aareschlucht.ch/en/info/information"
+      ]
+    ],
+    "lat": 46.71778,
+    "lng": 8.21361,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/In_der_Aareschlucht_bei_Innertkirchen_%282013%29.jpg/960px-In_der_Aareschlucht_bei_Innertkirchen_%282013%29.jpg",
+    "caption": "Aare Gorge",
+    "width": 960,
+    "height": 1440,
+    "credit": {
+      "author": "JoachimKohler-HB",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:In_der_Aareschlucht_bei_Innertkirchen_(2013).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "kidsFeasibility": 3,
+    "familyNote": "Narrow, light strollers can reach the main attractions from the west entrance, subject to crowd restrictions. Plan an out-and-back visit rather than a full through-walk.",
+    "aprilNote": "Confirmed 2027 dates: west entrance opens 26 March; east entrance opens 6 May. During this visit the published opening hours are 08:30 to 17:30, with return via the west entrance.",
+    "photoFit": "contain"
+  },
+  {
+    "number": 23,
+    "title": "Wengen by train from Lauterbrunnen",
+    "meta": "Mountain village and railway ride",
+    "body": "A largely car-free mountain village above Lauterbrunnen, reached by the Wengernalp Railway. The village has traditional chalet architecture and views across the valley.",
+    "links": [
+      [
+        "Railway operating information",
+        "https://www.jungfrau.ch/en-gb/live/operating-info/"
+      ],
+      [
+        "Wengen village and railway access",
+        "https://www.jungfrau.ch/en-gb/wengen/"
+      ]
+    ],
+    "lat": 46.6056,
+    "lng": 7.9214,
+    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/1_wengen_2012.jpg/960px-1_wengen_2012.jpg",
+    "caption": "Wengen village",
+    "width": 960,
+    "height": 641,
+    "credit": {
+      "author": "chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1_wengen_2012.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "kidsFeasibility": 3,
+    "familyNote": "The railway ride and village suit a family outing. Remaining snow, hills and chilly weather make short village walks easier than higher routes.",
+    "aprilNote": "The village railway is a year-round connection. Recheck the travel-day timetable and operating notices; summer hiking routes and mountain lifts have separate seasons."
+  },
+  {
+    "number": 24,
     "title": "Lauterbrunnen valley and Staubbach views",
     "meta": "Cliff scenery, waterfalls and valley walks",
     "body": "A valley of high cliffs, meadows and waterfalls, including Staubbach Falls beside Lauterbrunnen village. Valley-floor paths provide views of the cliffs and falling water.",
@@ -559,66 +733,7 @@
     "photoPosition": "50% 60%"
   },
   {
-    "number": 19,
-    "title": "Wengen by train from Lauterbrunnen",
-    "meta": "Mountain village and railway ride",
-    "body": "A largely car-free mountain village above Lauterbrunnen, reached by the Wengernalp Railway. The village has traditional chalet architecture and views across the valley.",
-    "links": [
-      [
-        "Railway operating information",
-        "https://www.jungfrau.ch/en-gb/live/operating-info/"
-      ],
-      [
-        "Wengen village and railway access",
-        "https://www.jungfrau.ch/en-gb/wengen/"
-      ]
-    ],
-    "lat": 46.6056,
-    "lng": 7.9214,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/1_wengen_2012.jpg/960px-1_wengen_2012.jpg",
-    "caption": "Wengen village",
-    "width": 960,
-    "height": 641,
-    "credit": {
-      "author": "chensiyuan",
-      "license": "CC BY-SA 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:1_wengen_2012.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-    },
-    "kidsFeasibility": 3,
-    "familyNote": "The railway ride and village suit a family outing. Remaining snow, hills and chilly weather make short village walks easier than higher routes.",
-    "aprilNote": "The village railway is a year-round connection. Recheck the travel-day timetable and operating notices; summer hiking routes and mountain lifts have separate seasons."
-  },
-  {
-    "number": 20,
-    "title": "Harder Kulm above Interlaken",
-    "meta": "Mountain viewpoint and funicular",
-    "body": "A funicular from Interlaken reaches this viewpoint above the town, with views over Lakes Thun and Brienz. It offers a short mountain excursion when the railway is operating.",
-    "links": [
-      [
-        "Current and seasonal operating dates",
-        "https://www.jungfrau.ch/en-gb/live/operating-info/"
-      ]
-    ],
-    "lat": 46.6989,
-    "lng": 7.8516,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg/960px-14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg",
-    "caption": "Harder Kulm and Lake Thun",
-    "width": 960,
-    "height": 540,
-    "credit": {
-      "author": "Giles Laurent",
-      "license": "CC BY-SA 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-    },
-    "kidsFeasibility": 4,
-    "familyNote": "A short funicular ride and viewpoint outing when operating. The viewing platform and short approach suit a brief visit; longer mountain paths need a separate conditions check.",
-    "aprilNote": "An official opening date covering 1 to 9 April 2027 could not be verified. Keep this available as an option, but confirm the operator's season before planning around it.",
-    "photoPosition": "50% 60%"
-  },
-  {
-    "number": 21,
+    "number": 25,
     "title": "Trümmelbach Falls",
     "meta": "Waterfalls inside a mountain",
     "body": "Ten glacial waterfalls inside the mountain, reached through a system of tunnels, a lift and stairs. The water drains the glacier walls of the Eiger, Moench and Jungfrau.",
@@ -644,120 +759,5 @@
     "familyNote": "The operator does not admit a three-year-old. Older family members could visit separately; tunnels, stairs, noise and wet surfaces add difficulty.",
     "aprilNote": "The usual season begins in early April, subject to weather. Confirm the actual 2027 opening before travelling; an open date does not remove the child-access restriction.",
     "photoFit": "contain"
-  },
-  {
-    "number": 22,
-    "title": "Aare Gorge / Aareschlucht, Meiringen",
-    "meta": "Gorge walk and tunnels",
-    "body": "Walkways and tunnels follow the Aare through a narrow limestone gorge. The Tatzi trail adds a creature-search activity.",
-    "links": [
-      [
-        "2027 dates, Tatzi trail and stroller information",
-        "https://aareschlucht.ch/en/info/information"
-      ]
-    ],
-    "lat": 46.71778,
-    "lng": 8.21361,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/In_der_Aareschlucht_bei_Innertkirchen_%282013%29.jpg/960px-In_der_Aareschlucht_bei_Innertkirchen_%282013%29.jpg",
-    "caption": "Aare Gorge",
-    "width": 960,
-    "height": 1440,
-    "credit": {
-      "author": "JoachimKohler-HB",
-      "license": "CC BY-SA 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:In_der_Aareschlucht_bei_Innertkirchen_(2013).jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-    },
-    "kidsFeasibility": 3,
-    "familyNote": "Narrow, light strollers can reach the main attractions from the west entrance, subject to crowd restrictions. Plan an out-and-back visit rather than a full through-walk.",
-    "aprilNote": "Confirmed 2027 dates: west entrance opens 26 March; east entrance opens 6 May. During this visit the published opening hours are 08:30 to 17:30, with return via the west entrance.",
-    "photoFit": "contain"
-  },
-  {
-    "number": 24,
-    "title": "Natur- und Tierpark Goldau",
-    "meta": "Wildlife park, woodland and family activities",
-    "body": "A wildlife park in the wooded landscape of the Goldau landslide, home to native and European animal species. Some deer and other animals move through free-ranging areas, alongside larger animal enclosures.",
-    "kidsFeasibility": 4,
-    "familyNote": "Animals and playgrounds make a flexible family day. Choose the main routes with a stroller; some paths are less accessible. This is an alternative wildlife day to Zurich Zoo.",
-    "aprilNote": "The standing April-to-October opening hours are daily, 09:00 to 18:00. This outing does not depend on the mountain railways operating; check the day's park notices before travelling.",
-    "links": [
-      [
-        "Official opening hours",
-        "https://www.tierpark.ch/tierpark-besuch/oeffnungszeiten/"
-      ],
-      [
-        "Family and access information",
-        "https://www.tierpark.ch/tierpark-besuch/faq/"
-      ]
-    ],
-    "lat": 47.0506,
-    "lng": 8.5538,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Besucherplattform_B%C3%A4r-_und_Wolfanlage.jpg/960px-Besucherplattform_B%C3%A4r-_und_Wolfanlage.jpg",
-    "caption": "Visitors at the bear and wolf enclosure in Goldau",
-    "width": 960,
-    "height": 639,
-    "credit": {
-      "author": "TierparkGoldau",
-      "license": "CC BY-SA 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Besucherplattform_B%C3%A4r-_und_Wolfanlage.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
-    },
-    "photoPosition": "50% 40%"
-  },
-  {
-    "number": 25,
-    "title": "Thun old town, Schadau Park and castle",
-    "meta": "Old town, lakefront park and an optional castle visit",
-    "body": "Thun's old town sits beside the Aare below its medieval castle. Schadau Park adds an open lakeside setting at the outlet of Lake Thun. The castle museum provides views across the town, lake and mountains.",
-    "kidsFeasibility": 3,
-    "familyNote": "The town and park can be explored in short sections. The castle interior has many stairs and no internal lift, so make that part optional for the youngest and leave the stroller outside the museum.",
-    "aprilNote": "The castle's standing April-to-June schedule is daily, 10:00 to 17:00, with last entry 30 minutes before closing. Unlike Spiez's museum, this is an April castle option; recheck any special closures.",
-    "links": [
-      [
-        "Castle hours, stairs and family access",
-        "https://schlossthun.ch/en/visitor-information/faq/"
-      ]
-    ],
-    "lat": 46.7597,
-    "lng": 7.629,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Thun_mit_Schloss.jpg/960px-Thun_mit_Schloss.jpg",
-    "caption": "Thun old town and castle",
-    "width": 960,
-    "height": 540,
-    "credit": {
-      "author": "Daniel Reust",
-      "license": "CC BY 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Thun_mit_Schloss.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    "photoPosition": "50% 40%"
-  },
-  {
-    "number": 26,
-    "title": "Zurich Zoo and Masoala Rainforest",
-    "meta": "Zoo, animal habitats and indoor rainforest",
-    "body": "Zurich Zoo combines outdoor animal habitats with the indoor Masoala Rainforest. A separate zoo visit adds an animal-focused outing to Zurich's old-town and lakefront sights.",
-    "kidsFeasibility": 4,
-    "familyNote": "Choose a few animal areas rather than trying to cover the whole zoo with a three-year-old. Masoala provides an indoor part of the visit; outdoor sections still involve walking. Choose this or Goldau according to your route.",
-    "aprilNote": "The zoo's standing policy is open 365 days a year. March-to-October hours are 09:00 to 18:00, with Masoala opening at 10:00. Recheck the travel-day notices and individual animal-area access.",
-    "links": [
-      [
-        "Official opening hours",
-        "https://zoo.ch/en/plan-your-visit/opening-hours"
-      ]
-    ],
-    "lat": 47.3848,
-    "lng": 8.5749,
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/MasoalaHalle_TurmView.jpg/960px-MasoalaHalle_TurmView.jpg",
-    "caption": "Inside the Masoala Rainforest at Zurich Zoo",
-    "width": 960,
-    "height": 639,
-    "credit": {
-      "author": "Albinfo",
-      "license": "CC0 1.0",
-      "source": "https://commons.wikimedia.org/wiki/File:MasoalaHalle_TurmView.jpg",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-    }
   }
 ]
