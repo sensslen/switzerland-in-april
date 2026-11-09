@@ -7,7 +7,8 @@
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "node --test"
+    "test": "node --test",
+    "test:browser": "playwright test"
   },
   "dependencies": {
     "leaflet": "1.9.4",
@@ -16,6 +17,7 @@
     "react-leaflet": "5.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "1.65.0",
     "@vitejs/plugin-react": "6.2.1",
     "vite": "8.3.6"
   }

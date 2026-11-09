@@ -8,3 +8,28 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.place-pin .pin-number{transition:none}}
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+:root{--map-height:min(50svh,520px)}
+body{overflow-anchor:none}
+.trip-guide{margin-top:16px;font-size:13px;color:#435549;max-width:780px;line-height:1.65}
+.trip-guide summary{cursor:pointer;font-weight:600;color:var(--green)}
+.trip-guide p{margin:10px 0 0}
+.map-tools{display:flex;align-items:center;justify-content:center;gap:12px;padding-right:20px}
+.map-tools .region-bar{justify-content:flex-start;min-width:0;padding-right:0}
+.map-size-toggle{flex-shrink:0;font-size:11px;padding:7px 12px}
+.list-heading{flex-wrap:wrap}
+.sort-order{display:flex;align-items:center;gap:8px;font-size:12px;color:#435549;margin-left:auto}
+.sort-order select{font:inherit;color:var(--green);background:white;border:1px solid #c9d4ca;border-radius:8px;padding:8px;max-width:170px}
+.sort-order select:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.kids-rating{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin:15px 0 7px;font-size:12px;font-weight:650;color:var(--green)}
+.rating-dots{display:inline-flex;gap:3px}
+.rating-dots span{width:9px;height:9px;border:1px solid #8b9d92;border-radius:50%}
+.rating-dots .filled{background:var(--green);border-color:var(--green)}
+.family-note,.april-note{font-size:13px;line-height:1.65;margin:7px 0;color:#435549}
+.april-note{padding:10px 12px;background:#f5f4ec;border-left:3px solid #b8a777;border-radius:0 6px 6px 0}
+.photograph{position:relative;align-self:start;isolation:isolate;overflow:hidden;height:clamp(240px,28vw,350px);min-height:0}
+.photograph img{position:relative;width:100%;height:100%;max-height:none;object-fit:cover}
+.photo-fit::before{content:"";position:absolute;inset:-24px;z-index:-1;background-image:var(--photo-url);background-size:cover;background-position:center;filter:blur(18px);opacity:.6}
+.photo-fit img{object-fit:contain}
+@media(max-width:650px){.map-tools{gap:7px;padding-right:10px}.map-size-toggle{padding:7px 9px;font-size:10px}.sort-order{order:3;width:100%;margin:0}.list-heading>p{margin-left:auto}.map-caption{font-size:10px}.kids-rating{font-size:11px}}
+@media(max-width:650px){.photograph{height:220px}.photograph img{height:100%}}
